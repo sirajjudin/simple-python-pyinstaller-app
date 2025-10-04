@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        lable 'jenkinsalve'
-    }    
+    agent none
     stages {
         stage('Build') {
             agent {
