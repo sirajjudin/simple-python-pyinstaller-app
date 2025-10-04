@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-        label 'jenkinsalve'
-        reuseNode true
-    }    
+    agent any    
     stages {
         stage('Build') {
             agent {
